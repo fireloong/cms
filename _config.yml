@@ -1,6 +1,11 @@
 lang: zh-CN
 title: CMS
-email: fireloong@foxmail.com
+author:
+  name: FireLoong
+  email: fireloong@foxmail.com
 description: >-
   Write an awesome description for your new site here.
+
+timezone: Asia/Shanghai
+markdown: kramdown
 baseurl: /cms
