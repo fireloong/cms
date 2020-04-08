@@ -1,7 +1,6 @@
+lang: zh-CN
 title: CMS
 email: fireloong@foxmail.com
 description: >-
   Write an awesome description for your new site here.
 baseurl: /cms
-plugins:
-  - jekyll-admin
