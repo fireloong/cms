@@ -9,3 +9,7 @@ description: >-
 timezone: Asia/Shanghai
 markdown: kramdown
 baseurl: /cms
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
