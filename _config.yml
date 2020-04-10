@@ -8,7 +8,7 @@ description: >-
 
 timezone: Asia/Shanghai
 markdown: kramdown
-baseurl: /cms
+# baseurl: /cms
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
