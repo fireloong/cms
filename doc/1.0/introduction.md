@@ -1,7 +1,3 @@
----
-layout: doc
-title: 介绍
----
 # 介绍
 
 [文档]({{ "/doc/1.0/index.html" | relative_url }})

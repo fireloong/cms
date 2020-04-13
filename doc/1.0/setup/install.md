@@ -1,7 +1,3 @@
----
-layout: doc
-title: 安装
----
 # 安装
 
 [文档]({{ "/doc/1.0/index.html" | relative_url }})
