@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 首页
+title: 文档首页
 ---
 # 文档
 

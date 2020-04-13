@@ -18,7 +18,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
 <script>
-  NProgress.start();
+$(document).pjax('a', '#pjax-container');
+$(document).on('pjax:start', function() { NProgress.start(); });
+$(document).on('pjax:end',   function() { NProgress.done();  });
 </script>
 </body>
 </html>
