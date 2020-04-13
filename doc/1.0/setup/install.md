@@ -1,8 +1,8 @@
 ---
 layout: doc
-title: 首页
+title: 安装
 ---
-# 文档
+# 安装
 
 [文档]({{ "/doc/1.0/index.html" | relative_url }})
 
