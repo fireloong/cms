@@ -50,36 +50,3 @@ body {
   border-color: transparent;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
 }
-.sidebar-sticky {
-  padding-left: 10px;
-}
-.sidebar-sticky > ul li {
-  line-height: 30px;
-  cursor: pointer;
-  white-space: nowrap;
-  width: 100%;
-  overflow: hidden;
-}
-.sidebar-sticky > ul li .wholerow {
-  width: calc(100% - 1px);
-  position: absolute;
-  left: 0;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  height: 30px;
-  z-index: -1;
-}
-.sidebar-sticky > ul li:hover > .wholerow{
-  background-color: #f0f0f0;
-}
-.sidebar-sticky > ul li a {
-  color: #666666;
-}
-.sidebar-sticky > ul li a:hover{
-  text-decoration: none;
-}
-.sidebar-sticky > ul > li > ul > li {
-  margin-left: 20px;
-}
