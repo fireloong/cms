@@ -12,7 +12,7 @@
 </head>
 <body>
 <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top flex-md-nowrap shadow">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a href="{{ "/doc/1.0/index.html" | relative_url }}">首页</a>
   <div class="navbar-nav">
     <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
     <a class="nav-item nav-link" href="#">Features</a>
@@ -24,13 +24,22 @@
   <div class="row">
     <nav class="col-md-2 d-none d-md-block bg-light sidebar">
       <div class="sidebar-sticky">
-        fejf
+        <ul>
+          <li><a href="#">序言</a></li>
+          <li>
+            <svg class="bi bi-caret-right-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 011.659-.753l5.48 4.796a1 1 0 010 1.506z"/>
+            </svg>
+            <a href="#"基础></a>
+            <ul>
+              <li><a href="#">开发规范</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </nav>
     <main class="col-md-9 ml-sm-auto col-lg-10 px-4" role="main">
-      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        {{ content }}
-      </div>
+      {{ content }}
     </main>
   </div>
 </div>
