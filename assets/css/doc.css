@@ -107,9 +107,6 @@ body {
 .sidebar-sticky {
   padding-left: 10px;
 }
-.sidebar-sticky > ul ul {
-  display: none;
-}
 .sidebar-sticky > ul li {
   line-height: 30px;
   cursor: pointer;
