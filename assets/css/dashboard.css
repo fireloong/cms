@@ -125,6 +125,12 @@ body {
   user-select: none;
   height: 30px;
 }
+.sidebar-sticky > ul li .wholerow:hover{
+  background-color: #eeeeee;
+}
 .sidebar-sticky > ul li a {
   color: #666666;
+}
+.sidebar-sticky > ul li a:hover{
+  text-decoration: none;
 }
