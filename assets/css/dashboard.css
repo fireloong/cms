@@ -104,7 +104,9 @@ body {
   border-color: transparent;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
 }
-
+.sidebar-sticky{
+  padding-left: 10px;
+}
 .sidebar-sticky > ul ul {
   display: none;
 }
@@ -126,7 +128,7 @@ body {
   height: 30px;
 }
 .sidebar-sticky > ul li .wholerow:hover{
-  background-color: #eeeeee;
+  background-color: #fafafa;
 }
 .sidebar-sticky > ul li a {
   color: #666666;
