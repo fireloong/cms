@@ -14,8 +14,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
-  width: 14px;
-  height: 14px;
+  width: 20px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
 }
 
 .icon-sort-down:before {
