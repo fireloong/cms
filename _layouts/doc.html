@@ -23,61 +23,9 @@
 </nav>
 <div class="container-fluid">
   <div class="row">
-    <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-      <div class="sidebar-sticky">
-        <ul class="list-unstyled">
-          <li>
-            <div class="wholerow"></div>
-            <i class="iconfont">&ensp;</i>
-            <a href="#">序言</a>
-          </li>
-          <li>
-            <div class="wholerow"></div>
-            <i class="iconfont icon-caret-right"></i>
-            <a href="#">基础</a>
-            <ul class="list-unstyled collapse">
-              <li>
-                <div class="wholerow"></div>
-                <i class="iconfont">&ensp;</i>
-                <a href="#">开发规范</a>
-              </li>
-              <li>
-                <div class="wholerow"></div>
-                <i class="iconfont">&ensp;</i>
-                <a href="#">开发规范</a>
-              </li>
-              <li>
-                <div class="wholerow"></div>
-                <i class="iconfont">&ensp;</i>
-                <a href="#">开发规范</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <div class="wholerow"></div>
-            <i class="iconfont icon-caret-right"></i>
-            <a href="#">基础</a>
-            <ul class="list-unstyled collapse">
-              <li>
-                <div class="wholerow"></div>
-                <i class="iconfont">&ensp;</i>
-                <a href="#">开发规范</a>
-              </li>
-              <li>
-                <div class="wholerow"></div>
-                <i class="iconfont">&ensp;</i>
-                <a href="#">开发规范</a>
-              </li>
-              <li>
-                <div class="wholerow"></div>
-                <i class="iconfont">&ensp;</i>
-                <a href="#">开发规范</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="embed-responsive">
+      <iframe class="embed-responsive-item" frameborder="0" src="{{ "/doc/1.0/sidebar.html" | relative_url }}"></iframe>
+    </div>
     <main class="col-md-9 ml-sm-auto col-lg-10 px-4" role="main">
       {{ content }}
     </main>
