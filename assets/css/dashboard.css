@@ -108,3 +108,6 @@ body {
 .sidebar-sticky > ul ul {
   display: none;
 }
+.pl-18 {
+  padding-left: 18px;
+}
